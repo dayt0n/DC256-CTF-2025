@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: password-printer
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: false
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: kind/challenge:7917a248a3a984ca0b53565a8d5162fc7abbf642354013c4200368bd79d6806e

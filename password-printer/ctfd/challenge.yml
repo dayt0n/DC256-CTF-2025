@@ -2,10 +2,10 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "Password Checker"
+name: "Password Printer"
 author: "0xC4DE"
 category: pwn
-description: We made a simple password checker tool. There might be other functionality in there too...
+description: Now we show you your password when you enter it, just to make sure you got it correct!
 attribution: "[0xC4DE](https://0xc4de.dev/)"
 value: 300
 type: standard
@@ -41,7 +41,7 @@ host: null
 # Optional settings
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: nc password-checker.challenges.nohax.win 1337
+connection_info: nc password-printer.challenges.nohax.win 1337
 
 # healthcheck is a tool/script used to check a challenge
 # If connection_info was provided to CTFd when the challenge was installed, it will be passed to the healthcheck script:
@@ -54,7 +54,7 @@ connection_info: nc password-checker.challenges.nohax.win 1337
 # Accepts strings or dictionaries of CTFd API data
 flags:
     # A static case sensitive flag
-    - DC256{C1A5SIC_B0F_WH0_W0U1D_HAV3_GU3SSED_N0T_M3}
+    - DC256{F0RM@T_Y0UR_STRINGZ_G3T_SUM_FL4GS}
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins
@@ -66,7 +66,7 @@ flags:
 # Provide paths to files from the same directory that this file is in
 # Accepts strings
 files:
-    - ../dist/password-checker
+    - ../dist/password-printer
 
 # Hints are used to give players a way to buy or have suggestions. They are not
 # required but can be nice.
