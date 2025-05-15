@@ -1,7 +1,7 @@
 apiVersion: kctf.dev/v1
 kind: Challenge
 metadata:
-  name: c-repl
+  name: password-checker
 spec:
   deployed: true
   powDifficultySeconds: 0
@@ -10,4 +10,3 @@ spec:
   healthcheck:
     # TIP: disable the healthcheck during development
     enabled: false
-  image: kind/challenge:417adc1e60fa169bae40ce297bc18b6840daf98b9b272f05c87b2a3ceeef227f
