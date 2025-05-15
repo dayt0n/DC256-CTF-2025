@@ -1,0 +1,20 @@
+name: "Sanity Check"
+author: "dayt0n"
+category: Miscellaneous
+description: |-
+    If you can copy/paste, you should do just fine:
+
+    `DC256{s4nity_ch3ck_giv3s_fr33_p0int5}`
+attribution: "[dayt0n](https://dayt0n.com)"
+value: 25
+type: standard
+
+flags:
+    # A static case sensitive flag
+    - DC256{s4nity_ch3ck_giv3s_fr33_p0int5}
+
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
