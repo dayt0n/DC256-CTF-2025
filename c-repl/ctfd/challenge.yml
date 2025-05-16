@@ -4,7 +4,7 @@
 # Required sections
 name: "c-repl"
 author: "dayt0n"
-category: pwn
+category: Binary exploitation
 description: Rust is so memory safe that I rewrote all of my C tools in it! Hopefully I did it right. Could you test it for me?
 attribution: "[dayt0n](https://dayt0n.com)" 
 value: 1000

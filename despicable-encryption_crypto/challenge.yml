@@ -4,7 +4,7 @@
 # Required sections
 name: "Despicable Encryption"
 author: "ducky"
-category: crypto(graphy)
+category: Crypto(graphy)
 description: |-
     The Minions have been secretly exchanging files that just look like gibberish. Gru suspects they are using some form of encryption to hide plans for their next chaotic adventure. We've intercepted one of their transmissions - now it's up to you to figure out how to decode it. 
     

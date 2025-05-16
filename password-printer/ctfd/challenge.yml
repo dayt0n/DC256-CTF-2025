@@ -4,7 +4,7 @@
 # Required sections
 name: "Password Printer"
 author: "0xC4DE"
-category: pwn
+category: Binary exploitation
 description: Now we show you your password when you enter it, just to make sure you got it correct!
 attribution: "[0xC4DE](https://0xc4de.dev/)"
 value: 300

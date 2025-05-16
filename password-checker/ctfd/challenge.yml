@@ -4,7 +4,7 @@
 # Required sections
 name: "Password Checker"
 author: "0xC4DE"
-category: pwn
+category: Binary exploitation
 description: We made a simple password checker tool. There might be other functionality in there too...
 attribution: "[0xC4DE](https://0xc4de.dev/)"
 value: 300
