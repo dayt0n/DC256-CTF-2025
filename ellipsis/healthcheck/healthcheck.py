@@ -16,7 +16,7 @@
 
 import pwnlib.util.web
 
-if b"imanode" in pwnlib.util.web.wget("http://localhost:1337/nodejs?edonami"):
+if b"Ellipsis Flag System" in pwnlib.util.web.wget("http://localhost:1337/login"):
       exit(0)
 
 exit(1)

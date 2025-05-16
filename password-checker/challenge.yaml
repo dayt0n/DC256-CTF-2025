@@ -6,7 +6,9 @@ spec:
   deployed: true
   powDifficultySeconds: 0
   network:
-    public: false
+    public: true
   healthcheck:
     # TIP: disable the healthcheck during development
-    enabled: false
+    enabled: true
+    image: us.gcr.io/dc256-ctf-2025/password-checker-healthcheck:fe61cd3f8b8670e679ad981385bf61b9aa24717c4555a27a8598970984244380
+  image: us.gcr.io/dc256-ctf-2025/password-checker-challenge:c9a497c2981e5618b2ea19eacb4d635657438e252ed624f342a55274ac3a62ae

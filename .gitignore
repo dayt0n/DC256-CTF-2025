@@ -1,3 +1,5 @@
 .venv
 .ctf
 pages
+kctf/config/remote*
+kctf/config/.lastconfig

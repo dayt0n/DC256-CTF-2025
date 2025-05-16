@@ -6,8 +6,9 @@ spec:
   deployed: true
   powDifficultySeconds: 0
   network:
-    public: false
+    public: true
   healthcheck:
     # TIP: disable the healthcheck during development
-    enabled: false
-  image: kind/challenge:417adc1e60fa169bae40ce297bc18b6840daf98b9b272f05c87b2a3ceeef227f
+    enabled: true
+    image: us.gcr.io/dc256-ctf-2025/c-repl-healthcheck:2d91fff38a9b932f6317fe7c20ea57918e88413f93478f8d8c25a6e852979799
+  image: us.gcr.io/dc256-ctf-2025/c-repl-challenge:417adc1e60fa169bae40ce297bc18b6840daf98b9b272f05c87b2a3ceeef227f

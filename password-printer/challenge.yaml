@@ -6,8 +6,9 @@ spec:
   deployed: true
   powDifficultySeconds: 0
   network:
-    public: false
+    public: true
   healthcheck:
     # TIP: disable the healthcheck during development
-    enabled: false
-  image: kind/challenge:7917a248a3a984ca0b53565a8d5162fc7abbf642354013c4200368bd79d6806e
+    enabled: true
+    image: us.gcr.io/dc256-ctf-2025/password-printer-healthcheck:593f9c53cc0590dc130f570535aa18f75dd1cbb8d71aff068d98fff4aa91b1f2
+  image: us.gcr.io/dc256-ctf-2025/password-printer-challenge:7917a248a3a984ca0b53565a8d5162fc7abbf642354013c4200368bd79d6806e
