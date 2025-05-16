@@ -1,0 +1,22 @@
+{% extends "inheritme.html" %}
+<head>
+{% block head %}
+    <style>
+        body {
+            background-image: url("static/img/bg.png");
+            font-family: 'Comic Sans', Times, serif;
+            color:white;
+        }
+    </style>
+{% endblock %}
+{% block content %}
+    <center>
+        <h3>Welcome to a very legit</h3>
+        <blink><h1 class="blink">FLOWER WEBSITE</h1></blink>
+        <img src="static/img/flower1.png" style="width:300px; height:300px;">
+        <marquee><h3>This is a very legit website for discussing and talking about flowers</h3></marquee>
+        <img src="static/img/under_construction.gif">
+        <div>Check out the super secure <a href="source?method=">source code!</a></div>
+    </center>
+    <!-- <a href="get_file">Get our token manager!</a> -->
+{% endblock %}
