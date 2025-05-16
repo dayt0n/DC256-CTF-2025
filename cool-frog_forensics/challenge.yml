@@ -1,0 +1,25 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "cool frog"
+author: "Sydney Winters"
+category: Forensics
+description: This cute frog is hiding a message for you, can you find it?
+attribution: Sydney Winters
+value: 50
+type: standard
+# Flags specify answers that your challenge use. You should generally provide at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries of CTFd API data
+flags:
+    # A static case sensitive flag
+    - DC256{i_like_fr0gs_}
+files:
+    - dist/coolFrog.jpg
+
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"
