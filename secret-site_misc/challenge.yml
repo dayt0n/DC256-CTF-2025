@@ -1,0 +1,14 @@
+name: Secret Site
+author: dayt0n
+category: Miscellaneous
+description: |-
+  Can you find my secret website?
+
+  The flag is on a secret subdomain of `ropchain.party` :)
+attribution: '[dayt0n](https://dayt0n.com)'
+value: 200
+
+flags:
+- DC256{certific4t3_tr4nsp4r3ncy_ftw}
+
+version: '0.1'

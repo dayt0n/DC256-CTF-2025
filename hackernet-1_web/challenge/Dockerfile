@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# Copyright 2020 Google LLC
+#  Copyright 2020-2022 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,10 +11,15 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-import pwnlib.util.web
-
-if b"Ellipsis Flag System" in pwnlib.util.web.wget("http://localhost:1337/login"):
-      exit(0)
-
-exit(1)
+FROM python:latest
+LABEL maintainer="uahcybersec@uah.edu"
+LABEL version="0.1"
+LABEL description="web challenge 'hackernet' for the UAH Cybersecurity Club's 2022 Week of Welcome CTF."
+RUN /usr/sbin/useradd --no-create-home -u 1000 user
+WORKDIR /home/user
+ADD src/hacknet /home/user/hacknet
+COPY start.sh /home/user/start.sh
+COPY src/victims.db /home/user/victims.db
+RUN chmod -R 555 /home/user
+RUN pip install -e /home/user/hacknet/
+CMD bash -c "/home/user/start.sh"

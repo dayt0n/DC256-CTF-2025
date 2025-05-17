@@ -9,7 +9,7 @@ We made a simple password checker tool. There might be other functionality in th
 ## Solution
  * This almost certainly requires a decompiler.
  * It is intended to do a simple BOF into a specific memory location that triggers a print flag
- * Easiest to tinker with the thing locally, then use the right offset, usee solve.py
+ * Easiest to tinker with the thing locally, then use the right offset, use [solve.py](./solve.py).
 
 ## Notes
 

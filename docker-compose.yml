@@ -1,0 +1,33 @@
+services:
+  web-ellipsis:
+    restart: on-failure
+    build:
+      context: "./ellipsis_web/challenge"
+      dockerfile: "./Dockerfile"
+    ports:
+      - "127.0.0.1:8080:1337"
+    privileged: true
+    networks:
+      - main
+  web-hackernet:
+    restart: on-failure
+    build:
+      context: "./hackernet-1_web/challenge"
+      dockerfile: "./Dockerfile"
+    ports:
+      - "127.0.0.1:8081:5502"
+    privileged: true
+    networks:
+      - main
+  nginx:
+    restart: on-failure
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 80:80
+    networks:
+      - main
+
+networks:
+  main:
