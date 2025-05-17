@@ -37,6 +37,9 @@ def index():
     )
     return render_template("flowernet.html", credits=Credits.select())
 
+@app.route("/robots.txt",methods=["GET"])
+def robots():
+    return send_file("static/robots.txt")
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
