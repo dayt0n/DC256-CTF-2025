@@ -11,7 +11,7 @@ type: standard
 
 flags:
     # A static case sensitive flag
-    - DC256{ca3s4r_0r_rot_16}
+    - DC256{ca3s4r_0r_rot_13}
 
 state: visible
 
