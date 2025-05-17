@@ -5,6 +5,9 @@ This repo uses [kCTF](https://github.com/google/kctf) for remote challenge infra
 ## Writeups
 If you're looking for writeups, [click here](./WRITEUPS.md)!
 
+## Slides from the CTF 101 talk
+If you want the slides from my presentation at the DC256 group on CTF 101, [click here](./CTF%20101.pdf).
+
 ## ctfcli
 
 ### Installation
