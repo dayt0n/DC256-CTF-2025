@@ -6,6 +6,8 @@ name: "Hackernet 3"
 author: "0xC4DE"
 category: Web
 description: |-
+    ***`The flag format for all Hackernet challenges is uah{...}.`***
+
     Get your chromium flags!
 attribution: "[0xC4DE](https://0xc4de.dev)"
 value: 200

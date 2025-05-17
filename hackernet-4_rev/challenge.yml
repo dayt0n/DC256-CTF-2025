@@ -6,6 +6,8 @@ name: "Hackernet 4"
 author: "0xC4DE"
 category: Reversing
 description: |-
+    ***`The flag format for all Hackernet challenges is uah{...}.`***
+
     Things are about to get messy :)
 attribution: "[0xC4DE](https://0xc4de.dev)"
 value: 400

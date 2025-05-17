@@ -6,6 +6,8 @@ name: "Hackernet 5"
 author: "0xC4DE"
 category: Crypto(graphy)
 description: |-
+    ***`The flag format for all Hackernet challenges is uah{...}.`***
+
     Hope you enjoyed the multi-category challenge!
 attribution: "[0xC4DE](https://0xc4de.dev)"
 value: 400
